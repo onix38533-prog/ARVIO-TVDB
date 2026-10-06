@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="pref_tvdb_api_key"
+        android:title="TVDB API Key"
+        android:summary="Enter your TVDB API key. This key is stored locally and not checked into version control."
+        android:dialogTitle="TVDB API Key" />
+
+    <ListPreference
+        android:key="pref_metadata_source"
+        android:title="Metadata source"
+        android:entries="@array/pref_metadata_source_entries"
+        android:entryValues="@array/pref_metadata_source_values"
+        android:defaultValue="tmdb"
+        android:summary="Choose the metadata provider: TMDB (default) or TVDB." />
+
+    <ListPreference
+        android:key="pref_episode_order"
+        android:title="Episode ordering"
+        android:entries="@array/pref_episode_order_entries"
+        android:entryValues="@array/pref_episode_order_values"
+        android:defaultValue="COMBINED"
+        android:summary="Select how episodes are ordered in episode lists." />
+
+</PreferenceScreen>

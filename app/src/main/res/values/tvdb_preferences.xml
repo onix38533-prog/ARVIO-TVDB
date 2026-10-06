@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_metadata_source_entries">
+        <item>TMDB (Default)</item>
+        <item>TVDB</item>
+    </string-array>
+    <string-array name="pref_metadata_source_values">
+        <item>tmdb</item>
+        <item>tvdb</item>
+    </string-array>
+
+    <string-array name="pref_episode_order_entries">
+        <item>Combined</item>
+        <item>Original (Air date)</item>
+        <item>Absolute</item>
+        <item>DVD</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="pref_episode_order_values">
+        <item>COMBINED</item>
+        <item>ORIGINAL</item>
+        <item>ABSOLUTE</item>
+        <item>DVD</item>
+        <item>CUSTOM</item>
+    </string-array>
+</resources>
